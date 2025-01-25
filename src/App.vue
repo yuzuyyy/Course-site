@@ -1,10 +1,8 @@
 <script>
-
+import Hero from './components/Hero.vue';
 </script>
 
 <template>
-<div>
-  <h1 class="heading1 text-color5">hello world</h1>
-</div>
-
+ <Hero />
+ helo
 </template>
