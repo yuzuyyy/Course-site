@@ -6,7 +6,7 @@ const links = ["course", "reviews", "contact"]
 </script>
 
 <template>
-    <nav class="">
+    <nav class="absolute bg-transparent top-0 z-50 w-full">
         <div class="daisy-navbar border flex justify-between p-4 max-w-screen-xl mx-auto ">
             <img 
             class="h-[34px] w-[150px] "
