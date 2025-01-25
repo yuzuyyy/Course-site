@@ -12,15 +12,15 @@
   }
 
   .heading1 {
-    @apply text-[72px] md:max-lg:text-[58px] max-md:text-[40px] text-center font-semibold leading-[1.2] tracking-tight 
+    @apply text-black text-[72px] md:max-lg:text-[58px] max-md:text-[40px] text-center font-semibold leading-[1.2] tracking-tight 
   }
 
   .heading2 {
-    @apply text-[50px] md:max-lg:text-[42px] max-md:text-[32px] font-semibold leading-[1.2] tracking-[0.03em]
+    @apply text-black text-[50px] md:max-lg:text-[42px] max-md:text-[32px] font-semibold leading-[1.2] tracking-[0.03em]
   }
 
   .heading3 {
-    @apply text-[24px] md:max-lg:text-[20px] max-md:text-[20px] font-semibold leading-[1.4] tracking-[0.02em]
+    @apply text-black text-[24px] md:max-lg:text-[20px] max-md:text-[20px] font-semibold leading-[1.4] tracking-[0.02em]
   }
 
   .heading4 {
@@ -28,10 +28,15 @@
   }
 
   .p1 {
-    @apply font-inter text-[16px] font-medium leading-[1.2] tracking-[0.01em]
+    @apply text-black font-inter text-[16px] font-medium leading-[1.2] tracking-[0.01em]
   }
 
   .p2 {
-    @apply font-inter text-[16px] leading-[1.8] tracking-normal
+    @apply text-black font-inter text-[16px] leading-[1.8] tracking-normal
+  }
+
+  .radial {
+    background: rgb(238,70,178);
+background: radial-gradient(circle, rgba(238,70,178,1) 45%, rgba(255,255,255,1) 100%);
   }
 }
