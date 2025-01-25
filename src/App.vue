@@ -1,8 +1,7 @@
-<script>
-import Hero from './components/Hero.vue';
+<script setup>
+import { Hero } from './components';
 </script>
 
 <template>
  <Hero />
- helo
 </template>

@@ -12,7 +12,7 @@
   }
 
   .heading1 {
-    @apply text-[72px] md:max-lg:text-[58px] max-md:text-[40px] font-semibold leading-[1.2] tracking-[0.04em] 
+    @apply text-[72px] md:max-lg:text-[58px] max-md:text-[40px] text-center font-semibold leading-[1.2] tracking-tight 
   }
 
   .heading2 {
