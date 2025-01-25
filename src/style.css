@@ -37,6 +37,6 @@
 
   .radial {
     background: rgb(238,70,178);
-background: radial-gradient(circle, rgba(238,70,178,1) 45%, rgba(255,255,255,1) 100%);
+background: radial-gradient(circle, rgba(238,70,178,1) 35%, rgba(255,255,255,1) 100%);
   }
 }
