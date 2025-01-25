@@ -7,16 +7,16 @@
 @tailwind utilities;
 
 @layer base {
-  body  {
+  body {
     font-family: "Poppins", serif;
   }
 
   .heading1 {
-    @apply text-black text-[72px] md:max-lg:text-[58px] max-md:text-[40px] text-center font-semibold leading-[1.2] tracking-tight 
+    @apply text-black text-[72px] md:max-lg:text-[58px] max-md:text-[40px] text-center font-semibold leading-[1.2] tracking-tight
   }
 
   .heading2 {
-    @apply text-black text-[50px] md:max-lg:text-[42px] max-md:text-[32px] font-semibold leading-[1.2] tracking-[0.03em]
+    @apply text-black text-[50px] md:max-lg:text-[42px] max-md:text-[32px] font-medium leading-[1.2] tracking-tight
   }
 
   .heading3 {
@@ -36,34 +36,12 @@
   }
 
   .radial {
-    background: rgb(238,70,178);
-background: radial-gradient(circle, rgba(238,70,178,1) 35%, rgba(255,255,255,1) 100%);
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=ef457f&c2=ffffff&gt=r&gd=dcc
+*/
+    background: #EF457F;
+    background: radial-gradient(at center, #EF457F, #FFFFFF);
   }
-
-  /* Balon */
-.balloon {
-  width: 50px;
-  height: 70px;
-  background: radial-gradient(circle, rgb(123, 105, 255) 50%, #ff14d8); /* Warna balon */
-  border-radius: 50% 50% 60% 60%; /* Bentuk balon */
-  position: absolute;
-  bottom: -100px; /* Mulai di bawah layar */
-  animation: float 5s ease-in-out infinite;
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2); /* Efek bayangan */
-}
-
-/* Animasi mengambang */
-@keyframes float {
-  0% {
-    transform: translateY(0) translateX(0);
-  }
-  50% {
-    transform: translateY(-20px) translateX(10px);
-  }
-  100% {
-    transform: translateY(0) translateX(0);
-  }
-}
-
 
 }

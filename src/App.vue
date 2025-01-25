@@ -1,9 +1,9 @@
 <script setup>
-import { Hero , Navigation} from './components';
+import { Hero , Navigation, Offer} from './components';
 </script>
 
 <template>
-<Navigation />
- <Hero />
- 
+<!-- <Navigation /> -->
+ <!-- <Hero /> -->
+ <Offer />
 </template>

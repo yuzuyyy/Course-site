@@ -8,13 +8,11 @@ import { hero } from '../assets';
   <section class="relative bg-white flex flex-col items-center pt-[140px] px-[60px] radial overflow-hidden">
     <div class="absolute inset-0 bg-white/20 backdrop-blur-3xl ">
     </div>
-  
-
     <div class="w-full flex flex-col items-center gap-[60px] z-20">
       <!-- text-content start-->
       <div class="flex flex-col items-center gap-8">
         <div
-          class="daisy-btn rounded-full flex items-center gap-1 bg-white/40 shadow shadow-white border-none backdrop-blur-3xl">
+          class="py-2 px-6 font-inter rounded-full flex items-center gap-2 bg-white/40 shadow shadow-white border-none backdrop-blur-3xl">
           <div class="size-2 bg-black rounded-full"></div> Trusted by 20,000+ Happy Learners
         </div>
 

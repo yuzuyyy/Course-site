@@ -15,7 +15,7 @@ export default {
         color6 : "#F1F5F9"
       },
       fontFamily: {
-        inter: "Inter"
+        inter: "inter"
       },
     },
   },
