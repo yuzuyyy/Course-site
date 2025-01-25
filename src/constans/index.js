@@ -1,0 +1,1 @@
+export const navLinks = ["course", "reviews", "contact"]
