@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -7,5 +9,29 @@
 @layer base {
   body  {
     font-family: "Poppins", serif;
+  }
+
+  .heading1 {
+    @apply text-[72px] md:max-lg:text-[58px] max-md:text-[40px] font-semibold leading-[1.2] tracking-[0.04em] 
+  }
+
+  .heading2 {
+    @apply text-[50px] md:max-lg:text-[42px] max-md:text-[32px] font-semibold leading-[1.2] tracking-[0.03em]
+  }
+
+  .heading3 {
+    @apply text-[24px] md:max-lg:text-[20px] max-md:text-[20px] font-semibold leading-[1.4] tracking-[0.02em]
+  }
+
+  .heading4 {
+    @apply text-[20px] md:max-lg:text-[16px] max-md:text-[16px] font-semibold leading-[1.4em] tracking-[0.04em]
+  }
+
+  .p1 {
+    @apply font-inter text-[16px] font-medium leading-[1.2] tracking-[0.01em]
+  }
+
+  .p2 {
+    @apply font-inter text-[16px] leading-[1.8] tracking-normal
   }
 }
