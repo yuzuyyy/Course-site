@@ -71,13 +71,14 @@
     justify-items: center;
   }
   
-  .featured {
-    transform: perspective(1200px) rotateY(0deg);
-    transform-origin: center;
-    transition: transform 0.6s ease, skew 0.6s ease;
-  }
+  .tilt-3d {
+    transform: perspective(1200px) rotateY(0deg) ; /* Sudut awal 3D */
+    transform-origin: center; /* Titik asal transformasi */
+    transition: transform 0.6s ease; /* Transisi untuk animasi */
+}
 
-  .featured:hover {
-    transform: rotateX(20deg);
-  }
+.tilt-3d:hover {
+    transform: perspective(1200px) rotateY(-20deg) rotateX(5deg); /* Tambahkan perspective untuk hover */
+}
+
 }
