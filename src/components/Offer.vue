@@ -22,13 +22,13 @@ import { cards } from '../constans';
                 </div>
 
                 <img class="size-[25px]" :src="visual" alt="">
-            </div> 
+            </div>
             <!-- heading end -->
 
             <!-- site info start -->
-             <div class="grid-offer ">
+            <div class="grid-offer">
                 <CourseCard v-for="card in cards" :key="card.text" v-bind="card" />
-            </div> 
+            </div>
             <!-- site info end -->
 
             <!-- social proof start -->
