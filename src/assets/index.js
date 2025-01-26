@@ -11,6 +11,9 @@ import company3 from './company3.png'
 import company4 from './company4.png'
 import company5 from './company5.png'
 import company6 from './company6.png'
+import feature1 from './feature1.jpeg'
+import feature2 from './feature2.jpeg'
+import feature3 from './feature3.jpeg'
 export {
     hero,
     logo,
@@ -24,5 +27,8 @@ export {
     company3,
     company4,
     company5,
-    company6
+    company6,
+    feature1,
+    feature2,
+    feature3
 }

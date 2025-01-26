@@ -1,4 +1,4 @@
-import { card1,card2, card3, company1, company2, company3, company4, company5, company6 } from "../assets"
+import { card1,card2, card3, company1, company2, company3, company4, company5, company6, feature1, feature2, feature3 } from "../assets"
 
 
 
@@ -26,4 +26,8 @@ export const cards = [
 
 export const companies = [
     company1, company2, company3, company4, company5, company6
+]
+
+export const features = [
+    feature1,feature2,feature3
 ]
