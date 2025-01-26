@@ -14,6 +14,14 @@ import company6 from './company6.png'
 import feature1 from './feature1.jpeg'
 import feature2 from './feature2.jpeg'
 import feature3 from './feature3.jpeg'
+import badge2 from './badge2.svg'
+import badge3 from './badge3.svg'
+import badge4 from './badge4.svg'
+import badge5 from './badge5.svg'
+import badge6 from './badge6.svg'
+import badge7 from './badge7.svg'
+import badge8 from './badge8.svg'
+import star from './star.svg'
 export {
     hero,
     logo,
@@ -30,5 +38,13 @@ export {
     company6,
     feature1,
     feature2,
-    feature3
+    feature3,
+    badge2,
+    badge3,
+    badge4,
+    badge5,
+    badge6,
+    badge7,
+    badge8,
+    star
 }
