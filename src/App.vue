@@ -5,6 +5,6 @@ import { Hero , Navigation, Offer, Featured} from './components';
 <template>
 <!-- <Navigation /> -->
  <!-- <Hero /> -->
- <!-- <Offer /> -->
+ <Offer />
  <Featured />
 </template>
