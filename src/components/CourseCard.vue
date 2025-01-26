@@ -26,11 +26,11 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="w-[400px]  flex flex-col items-center justify-center gap-4 overflow-visible">
+    <div class="w-[400px]  flex flex-col items-center justify-center  gap-4 overflow-visible">
         <!-- content start -->
         <div 
             :class="{ 'rotate-right': rotateRight, 'rotate-left': rotateLeft }"
-            class="w-full flex flex-col justify-center gap-8 py-16 px-16  rounded-3xl shadow-[0_0px_10px_gray]"
+            class="w-full flex flex-col justify-center gap-8 py-16 px-16  rounded-3xl shadow-lg shadow-black"
         >
             <!-- wrapper start -->
             <div class="flex flex-col items-center justify-center gap-6">
