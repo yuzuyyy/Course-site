@@ -6,7 +6,8 @@ export const cards = [
     {
         image: card1,
         text: "hours of content",
-        number: "100+"
+        number: "100+",
+        rotateRight: true
     },
     {
         image: card2,
@@ -16,6 +17,7 @@ export const cards = [
     {
         image: card3,
         text: "students",
-        number: "20k+"
+        number: "20k+",
+        rotateLeft: true
     },
 ]

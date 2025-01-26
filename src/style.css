@@ -44,4 +44,32 @@
     background: radial-gradient(at center, #EF457F, #FFFFFF);
   }
 
+
+
+  .rotate-right {
+    transform: perspective(1200px) rotateY(30deg);
+    transform-origin: center;
+    transition: transform 0.6s ease, skew 0.6s ease;
+  }
+
+  .rotate-left {
+    transform: perspective(1200px) rotateY(-30deg);
+    transform-origin: center;
+    transition: transform 0.6s ease, skew 0.6s ease;
+  }
+ 
+  /* .rotate-right:hover , .rotate-right:hover {
+    transform: rotateX(0deg);
+  } */
+
+  .grid-offer {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(50px, 1fr));
+    width: 100%;
+    /* border: 1px solid; */
+    gap: 30px;
+    justify-items: center;
+  }
+  
+
 }
