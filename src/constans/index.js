@@ -1,4 +1,6 @@
-import { card1,card2, card3 } from "../assets"
+import { card1,card2, card3, company1, company2, company3, company4, company5, company6 } from "../assets"
+
+
 
 export const navLinks = ["course", "reviews", "contact"]
 
@@ -20,4 +22,8 @@ export const cards = [
         number: "20k+",
         rotateLeft: true
     },
+]
+
+export const companies = [
+    company1, company2, company3, company4, company5, company6
 ]

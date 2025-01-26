@@ -1,6 +1,6 @@
 <script setup>
 import { visual } from '../assets';
-import { Badge, CourseCard } from '../components';
+import { Badge, CourseCard, LogoSlider } from '../components';
 import { cards } from '../constans';
 
 
@@ -35,15 +35,13 @@ import { cards } from '../constans';
             <div class="flex flex-col items-center justify-center gap-[16px] w-full border">
 
                 <div class="flex items-center justify-center w-full">
-                    <div class="h-px w-1/4  bg-gray-700">
+                    <div class="h-[0.5px] w-1/4  bg-gray-700">
                     </div>
                     <p class="p1 text-center w-2/4">Adopted by renowned enterprises such as</p>
-                    <div class="h-px flex-1 bg-gray-700"></div>
+                    <div class="h-[0.5px] flex-1 bg-gray-700"></div>
                 </div>
 
-                <div>
-                    
-                </div>
+                <LogoSlider />
             </div>
             <!-- social proof end -->
         </div>
