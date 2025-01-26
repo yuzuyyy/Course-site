@@ -11,7 +11,7 @@ import { cards } from '../constans';
     <section class=" items-center justify-center gap-[88px] pt-[96px] px-[60px] bg-white z-20">
         <div class="mx-auto max-w-screen-xl flex flex-col items-center justify-center gap-[44px]  ">
             <!-- heading start -->
-            <!-- <div class="flex  items-center justify-center gap-[30px] ">
+            <div class="flex  items-center justify-center gap-[30px] ">
                 <img class="size-[25px]" :src="visual" alt="">
 
                 <div class="flex flex-col items-center max-w-[620px] gap-[16px] ">
@@ -22,17 +22,17 @@ import { cards } from '../constans';
                 </div>
 
                 <img class="size-[25px]" :src="visual" alt="">
-            </div> -->
+            </div> 
             <!-- heading end -->
 
             <!-- site info start -->
-            <!-- <div class="grid-offer ">
+             <div class="grid-offer ">
                 <CourseCard v-for="card in cards" :key="card.text" v-bind="card" />
-            </div> -->
+            </div> 
             <!-- site info end -->
 
             <!-- social proof start -->
-            <div class="flex flex-col items-center justify-center gap-[16px] w-full border">
+            <div class="flex flex-col items-center justify-center gap-[16px] w-full ">
 
                 <div class="flex items-center justify-center w-full">
                     <div class="h-[0.5px] w-1/4  bg-gray-700">
@@ -41,7 +41,7 @@ import { cards } from '../constans';
                     <div class="h-[0.5px] flex-1 bg-gray-700"></div>
                 </div>
 
-                <LogoSlider />
+                <!-- <LogoSlider /> -->
             </div>
             <!-- social proof end -->
         </div>
