@@ -5,6 +5,8 @@ import Offer from './Offer.vue'
 import Badge from './Badge.vue'
 import CourseCard from './CourseCard.vue';
 import LogoSlider from './LogoSlider.vue'
+import Featured from './Featured.vue'
+import FeaturedCard from './FeaturedCard.vue'
 
 export {
     Navigation,
@@ -13,5 +15,7 @@ export {
     Offer,
     Badge,
     CourseCard,
-    LogoSlider
+    LogoSlider,
+    Featured,
+    FeaturedCard
 }
