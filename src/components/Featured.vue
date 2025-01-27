@@ -1,6 +1,6 @@
 <script setup>
 import { visual,badge2 } from '../assets';
-import { Badge, CourseCard, FeaturedCard } from '../components';
+import { Badge, ButtonCta, CourseCard, FeaturedCard } from '../components';
 import { features } from '../constans';
 
 
@@ -30,12 +30,11 @@ import { features } from '../constans';
             <div class="grid-offer">
                 <FeaturedCard 
                 v-for="feature in features" :key="feature.title"
-                v-bind="feature"
-                />
-                <!-- <CourseCard v-for="card in cards" :key="card.text" v-bind="card" /> -->
+                v-bind="feature" />
             </div>
             <!-- featured card end -->
 
+            <ButtonCta/>
            
         </div>
     </section>

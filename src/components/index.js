@@ -7,6 +7,7 @@ import CourseCard from './CourseCard.vue';
 import LogoSlider from './LogoSlider.vue'
 import Featured from './Featured.vue'
 import FeaturedCard from './FeaturedCard.vue'
+import ButtonCta from './ButtonCta.vue';
 
 export {
     Navigation,
@@ -17,5 +18,6 @@ export {
     CourseCard,
     LogoSlider,
     Featured,
-    FeaturedCard
+    FeaturedCard,
+    ButtonCta
 }
