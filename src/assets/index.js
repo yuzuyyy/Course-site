@@ -24,6 +24,9 @@ import badge8 from './badge8.svg'
 import star from './star.svg'
 import bars from './bars.svg'
 import arrow from './arrow.svg'
+import vector1 from './vector1.svg'
+import vector2 from './vector2.svg'
+import vector3 from './vector3.svg'
 export {
     hero,
     logo,
@@ -50,5 +53,8 @@ export {
     badge8,
     star,
     bars,
-    arrow
+    arrow,
+    vector1,
+    vector2,
+    vector3
 }
