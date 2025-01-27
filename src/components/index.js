@@ -8,6 +8,7 @@ import LogoSlider from './LogoSlider.vue'
 import Featured from './Featured.vue'
 import FeaturedCard from './FeaturedCard.vue'
 import ButtonCta from './ButtonCta.vue';
+import Reviews from './Reviews.vue';
 
 export {
     Navigation,
@@ -19,5 +20,6 @@ export {
     LogoSlider,
     Featured,
     FeaturedCard,
-    ButtonCta
+    ButtonCta,
+    Reviews
 }
