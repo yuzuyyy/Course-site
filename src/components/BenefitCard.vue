@@ -1,5 +1,5 @@
 <script setup>
-import { benefit1 } from './assets';
+
 
 const props = defineProps({
     icon: {

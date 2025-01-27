@@ -11,8 +11,9 @@ import ButtonCta from './ButtonCta.vue';
 import Reviews from './Reviews.vue';
 import Stars from './Stars.vue'
 import Benefits from './Benefits.vue';
-import BenefitCard from '../BenefitCard.vue';
-
+import BenefitCard from './BenefitCard.vue';
+import Pricing from './Pricing.vue'
+import PriceCard from './PriceCard.vue'
 export {
     Navigation,
     Hero,
@@ -27,5 +28,7 @@ export {
     Reviews,
     Stars,
     Benefits,
-    BenefitCard
+    BenefitCard,
+    Pricing,
+    PriceCard
 }
