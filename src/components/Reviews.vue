@@ -18,12 +18,12 @@ import ReviewsCard from './ReviewsCard.vue';
                     <h2 class="heading2 md:text-[42px] font-medium">Our Students feedback</h2>
                     <p class="p2 max-w-lg">Explore the incredible advantages of enrolling in our courses and enhancing
                         your skills.</p>
-                    <Button buttonClass="bg-slate-900 text-white text-lg font-inter ">Start learning now</Button>
+                    <Button buttonClass="bg-slate-900 text-white text-lg font-inter hover:bg-color1">Start learning now</Button>
                 </div>
                 <!-- text-content end -->
 
                 <!-- vectors -->
-                <div class="flex gap-2">
+                <div class="flex gap-6">
                     <img class="size-8" v-for="vector in vectors " :src="vector" alt="">
                 </div>
             </div>

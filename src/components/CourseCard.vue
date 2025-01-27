@@ -30,11 +30,11 @@ const props = defineProps({
         <!-- content start -->
         <div 
             :class="{ 'rotate-right': rotateRight, 'rotate-left': rotateLeft }"
-            class="w-full flex flex-col justify-center gap-8 py-16 px-16  rounded-3xl shadow-lg shadow-black"
+            class="w-full flex flex-col justify-center gap-8 py-16 px-16  rounded-3xl shadow-sm shadow-black"
         >
             <!-- wrapper start -->
             <div class="flex flex-col items-center justify-center gap-6">
-                <div class="p-2 rounded-3xl shadow-[0_0_10px_gray] ">
+                <div class="p-2 rounded-3xl shadow-sm shadow-black ">
                     <img 
                         class="w-[105px] h-[105px] object-cover overflow-hidden"
                         :src="image" 

@@ -40,8 +40,8 @@
 * Created with https://www.css-gradient.com
 * Gradient link: https://www.css-gradient.com/?c1=ef457f&c2=ffffff&gt=r&gd=dcc
 */
-    background: #EF457F;
-    background: radial-gradient(at center, #EF457F, #FFFFFF);
+    /* background: #4567ef; */
+    background: radial-gradient(at center, #ff49de, #FFFFFF);
   }
 
 
