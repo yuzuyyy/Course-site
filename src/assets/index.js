@@ -31,6 +31,12 @@ import linkedin from './linkedin.svg'
 import reviewer1 from './reviewer1.png'
 import reviewer2 from './reviewer2.jpeg'
 import reviewer3 from './reviewer3.jpeg'
+import benefit1 from './benefit1.svg'
+import benefit2 from './benefit2.svg'
+import benefit3 from './benefit3.svg'
+import benefit4 from './benefit4.svg'
+import benefit5 from './benefit5.svg'
+import benefit6 from './benefit6.svg'
 export {
     hero,
     logo,
@@ -64,5 +70,11 @@ export {
     linkedin,
     reviewer1,
     reviewer2,
-    reviewer3
+    reviewer3, 
+    benefit1,
+    benefit2,
+    benefit3,
+    benefit4,
+    benefit5,
+    benefit6
 }

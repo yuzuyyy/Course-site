@@ -1,4 +1,11 @@
-import { card1,card2, card3, company1, company2, company3, company4, company5, company6, feature1, feature2, feature3, vector1, vector2, vector3, reviewer1, reviewer2, reviewer3  } from "../assets"
+import { 
+    card1,card2, card3, 
+    company1, company2, company3, company4, company5, company6, 
+    feature1, feature2, feature3, 
+    vector1, vector2, vector3, 
+    reviewer1, reviewer2, reviewer3, 
+    benefit1, benefit2,benefit3,benefit4,benefit5,benefit6 
+ } from "../assets"
 
 
 
@@ -75,4 +82,38 @@ export const reviews = [
         comment: "The platform is amazing! It offers comprehensive and interactive content that makes learning enjoyable and effective.",
         rotateLeft: true
     }
+]
+
+export const benefits = [
+    {
+        icon: benefit1,
+        title: "Built by Professionals",
+        desc: "Get the best Experience knowing that our Courses are built by Professionals.", 
+    },
+    {
+        icon: benefit2,
+        title: "Completion Certificate",
+        desc: "Receive a Completion Award from our Team to enhance your motivation", 
+    },
+    {
+        icon: benefit3,
+        title: "Instant Chat Help",
+        desc: "Have questions? Reach out for a quick chat—here for you 24/7.", 
+    },
+    {
+        icon: benefit4,
+        title: "Lifetime Membership",
+        desc: "With Just One Payment, you'll get Permanent Access to the Course.", 
+    },
+    {
+        icon: benefit5,
+        title: "Access to Community",
+        desc: "Join Our Private Community to Connect with Like-Minded Individuals and Grow Together.", 
+    },
+    {
+        icon: benefit6,
+        title: "Download for Offline Use",
+        desc: "Our courses can be downloaded, so you can watch them anytime, anywhere.", 
+    },
+
 ]

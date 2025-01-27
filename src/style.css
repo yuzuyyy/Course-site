@@ -36,12 +36,12 @@
   }
 
   .radial {
-    /*
-* Created with https://www.css-gradient.com
-* Gradient link: https://www.css-gradient.com/?c1=ef457f&c2=ffffff&gt=r&gd=dcc
-*/
-    /* background: #4567ef; */
     background: radial-gradient(at center, #ff49de, #FFFFFF);
+  }
+
+  .radial2 {
+    background: rgb(129, 79, 255);
+    background: radial-gradient(circle, rgba(129, 79, 255, 0.1) 0%, rgba(255, 255, 255, 1) 100%);
   }
 
 
@@ -57,7 +57,7 @@
     transform-origin: center;
     transition: transform 0.6s ease, skew 0.6s ease;
   }
- 
+
   /* .rotate-right:hover , .rotate-right:hover {
     transform: rotateX(0deg);
   } */
@@ -70,15 +70,19 @@
     gap: 30px;
     justify-items: center;
   }
-  
-  .tilt-3d {
-    transform: perspective(1200px) rotateY(0deg) ; /* Sudut awal 3D */
-    transform-origin: center; /* Titik asal transformasi */
-    transition: transform 0.6s ease; /* Transisi untuk animasi */
-}
 
-.tilt-3d:hover {
-    transform: perspective(1200px) rotateY(20deg) rotateZ(5deg); /* Tambahkan perspective untuk hover */
-}
+  .tilt-3d {
+    transform: perspective(1200px) rotateY(0deg);
+    /* Sudut awal 3D */
+    transform-origin: center;
+    /* Titik asal transformasi */
+    transition: transform 0.6s ease;
+    /* Transisi untuk animasi */
+  }
+
+  .tilt-3d:hover {
+    transform: perspective(1200px) rotateY(20deg) rotateZ(5deg);
+    /* Tambahkan perspective untuk hover */
+  }
 
 }
