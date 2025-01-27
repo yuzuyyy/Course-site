@@ -3,10 +3,10 @@ import { Hero , Navigation, Offer, Featured, Reviews, Benefits} from './componen
 </script>
 
 <template>
-<!-- <Navigation /> -->
- <!-- <Hero /> -->
- <!-- <Offer /> -->
- <!-- <Featured /> -->
- <!-- <Reviews /> -->
+<Navigation />
+ <Hero />
+ <Offer />
+ <Featured />
+ <Reviews />
  <Benefits />
 </template>

@@ -5,7 +5,7 @@ import { hero } from '../assets';
 </script>
 
 <template>
-  <section class="relative bg-white flex flex-col items-center pt-[140px] px-[60px] radial overflow-hidden">
+  <section class="relative bg-white flex flex-col items-center pt-[140px] px-[60px]   overflow-hidden">
     <div class="absolute inset-0 bg-white/20 backdrop-blur-3xl ">
     </div>
     <div class="w-full flex flex-col items-center gap-[60px] z-20">
