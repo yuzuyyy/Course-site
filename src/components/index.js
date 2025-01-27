@@ -9,6 +9,7 @@ import Featured from './Featured.vue'
 import FeaturedCard from './FeaturedCard.vue'
 import ButtonCta from './ButtonCta.vue';
 import Reviews from './Reviews.vue';
+import Stars from './Stars.vue'
 
 export {
     Navigation,
@@ -21,5 +22,6 @@ export {
     Featured,
     FeaturedCard,
     ButtonCta,
-    Reviews
+    Reviews,
+    Stars
 }

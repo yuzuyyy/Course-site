@@ -27,6 +27,10 @@ import arrow from './arrow.svg'
 import vector1 from './vector1.svg'
 import vector2 from './vector2.svg'
 import vector3 from './vector3.svg'
+import linkedin from './linkedin.svg'
+import reviewer1 from './reviewer1.png'
+import reviewer2 from './reviewer2.jpeg'
+import reviewer3 from './reviewer3.jpeg'
 export {
     hero,
     logo,
@@ -56,5 +60,9 @@ export {
     arrow,
     vector1,
     vector2,
-    vector3
+    vector3,
+    linkedin,
+    reviewer1,
+    reviewer2,
+    reviewer3
 }

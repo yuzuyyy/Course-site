@@ -1,5 +1,6 @@
 <script setup>
 import { feature1, star, bars } from '../assets';
+import { Stars } from '../components';
 const stars = [1, 2, 3, 4, 5];
 
 const props = defineProps({
@@ -41,15 +42,7 @@ const props = defineProps({
             <!-- Bagian rating dengan bintang -->
 
             <div class="flex items-center ">
-                <div class="flex ">
-                    <img 
-                        v-for="(starItem, index) in stars"
-                        :key="index"
-                        :src="star"
-                        alt="Star Icon"
-                        class="h-5 w-5"
-                    />
-                </div>
+                <Stars />
                 <p class=" font-bold text-xl font-inter  text-end">{{ price }}<span class="text-lg">$</span></p>
             </div>
             <!-- Judul dan deskripsi -->

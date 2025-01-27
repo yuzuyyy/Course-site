@@ -1,4 +1,4 @@
-import { card1,card2, card3, company1, company2, company3, company4, company5, company6, feature1, feature2, feature3, vector1, vector2, vector3  } from "../assets"
+import { card1,card2, card3, company1, company2, company3, company4, company5, company6, feature1, feature2, feature3, vector1, vector2, vector3, reviewer1, reviewer2, reviewer3  } from "../assets"
 
 
 
@@ -53,3 +53,26 @@ export const features = [
 ];
 
 export const vectors = [vector1, vector2, vector3]
+
+export const reviews = [
+    {
+        image: reviewer1,
+        name: "Brendan Wilson",
+        role: "Aspiring Web Designer",
+        comment: "The courses are top-notch, providing in-depth knowledge that's easy to apply. Each lesson is structured to ensure you fully grasp the material.",
+        rotateRight : true
+    },
+    {
+        image: reviewer2,
+        name: "Sophia Martinez",
+        role: "Graphic Designer",
+        comment: "I loved the practical approach in the lessons. The exercises and real-world examples helped me advance my career significantly.",
+    },
+    {
+        image: reviewer3,
+        name: "Emily Johnson",
+        role: "UX/UI Enthusiast",
+        comment: "The platform is amazing! It offers comprehensive and interactive content that makes learning enjoyable and effective.",
+        rotateLeft: true
+    }
+]
