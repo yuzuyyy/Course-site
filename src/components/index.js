@@ -16,6 +16,8 @@ import Pricing from './Pricing.vue'
 import PriceCard from './PriceCard.vue'
 import About from './About.vue'
 import CertificateBanner from './CertificateBanner.vue'
+import Socmeds from './Socmeds.vue'
+import ProfileCard from './ProfileCard.vue'
 export {
     Navigation,
     Hero,
@@ -34,5 +36,7 @@ export {
     Pricing,
     PriceCard,
     About,
-    CertificateBanner
+    CertificateBanner,
+    Socmeds,
+    ProfileCard
 }

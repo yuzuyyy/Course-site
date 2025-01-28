@@ -46,7 +46,7 @@ const props = defineProps({
 
             <!-- Button -->
             <button :class="{ 'bg-slate-900 text-white': plan.isPopular }"
-                class="daisy-btn text-lg daisy-btn-circle daisy-btn-wide w-full daisy-btn-outline">
+                class="daisy-btn text-lg daisy-btn-circle w-full daisy-btn-outline">
                 Get started
             </button>
 

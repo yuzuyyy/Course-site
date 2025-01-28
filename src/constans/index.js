@@ -1,3 +1,4 @@
+import { guardReactiveProps } from "vue";
 import {
     card1, card2, card3,
     company1, company2, company3, company4, company5, company6,
@@ -5,7 +6,9 @@ import {
     vector1, vector2, vector3,
     reviewer1, reviewer2, reviewer3,
     benefit1, benefit2, benefit3, benefit4, benefit5, benefit6,
-    certificate1, certificate2, certificate3, certificate4
+    certificate1, certificate2, certificate3, certificate4,
+    twitter, github,
+    linkedin
 } from "../assets"
 
 
@@ -179,3 +182,5 @@ export const certificates = [
         desc: "Learn from experienced instructors for personalized and effective support."
     },
 ]  
+
+export const socmeds = [linkedin, twitter, github]

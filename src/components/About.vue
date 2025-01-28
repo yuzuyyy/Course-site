@@ -3,6 +3,7 @@ import { visual, badge5 } from '../assets';
 import { Badge, CertificateBanner } from '.';
 import { certificates } from '../constans';
 import { computed } from 'vue';
+import { ProfileCard } from '.';
 
 const pair1 = computed(() => certificates.slice(0,2))
 const pair2 = computed(() => certificates.slice(-2))
@@ -36,7 +37,8 @@ const pair2 = computed(() => certificates.slice(-2))
               v-bind="certificate"
             />
         </div>
-
+        <ProfileCard />
+    
         <div>
             <CertificateBanner
               v-for="certificate in pair2"
