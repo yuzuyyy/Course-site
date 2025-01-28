@@ -1,6 +1,7 @@
 <script setup>
 
-import {PriceCard, Stars} from '../components'
+import { PriceCard, Stars } from '../components'
+import { plans } from '../constans';
 
 </script>
 
@@ -8,7 +9,7 @@ import {PriceCard, Stars} from '../components'
     <section class="py-[96px] px-[60px]">
         <div class="mx-auto max-w-screen-xl flex flex-col items-center justify-center gap-[60px]">
             <!-- heading start -->
-            <div class="w-full flex justify-between items-end border">
+            <div class="w-full flex justify-between items-end ">
                 <h2 class="heading2 md:text-[42px] font-medium">Join Our Premium Courses</h2>
 
                 <div class="flex flex-col gap-6">
@@ -26,8 +27,12 @@ import {PriceCard, Stars} from '../components'
             </div>
             <!-- heaading end -->
 
-            <div>
-                <PriceCard />
+            <div class="grid-offer">
+                <PriceCard 
+                v-for="plan in plans" 
+                :key="plan.name" 
+                :plan="plan" 
+                :isPopular="plan.isPopular || false" />
             </div>
         </div>
     </section>

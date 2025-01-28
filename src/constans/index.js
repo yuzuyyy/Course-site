@@ -117,3 +117,42 @@ export const benefits = [
     },
 
 ]
+
+
+export const plans = [
+    {
+      name: "Starter plan",
+      price: 50.9,
+      benefits: [
+        { text: "Limited Access to the platform", available: true },
+        { text: "10 Free Courses", available: true },
+        { text: "Limited Benefits", available: true },
+        { text: "Agent", available: false },
+        { text: "Live Chat Support", available: false },
+      ],
+    },
+    {
+      name: "Pro plan",
+      price: 70.9,
+      benefits: [
+        { text: "Full Access to the platform", available: true },
+        { text: "20 Free Courses", available: true },
+        { text: "Unlimited Benefits", available: true },
+        { text: "Agent", available: true },
+        { text: "Live Chat Support", available: false },
+      ],
+      isPopular: true,
+    },
+    {
+      name: "Business plan",
+      price: 99.9,
+      benefits: [
+        { text: "Full Access to the platform", available: true },
+        { text: "30 Free Courses", available: true },
+        { text: "Unlimited Benefits", available: true },
+        { text: "Agent", available: true },
+        { text: "Live Chat Support", available: true },
+      ],
+    },
+  ];
+  
