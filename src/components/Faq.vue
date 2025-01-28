@@ -1,7 +1,17 @@
 <script setup>
 import { badge6 } from '../assets';
 import { Badge } from '.';
-import { contacts } from '../constans';
+import { contacts, accordions } from '../constans';
+
+const props = defineProps({
+    Q : {
+        type: String
+    },
+    A: {
+        type: String
+    }
+    
+})
 </script>
 
 <template>
@@ -33,41 +43,25 @@ import { contacts } from '../constans';
             <!-- Heading End -->
 
             <!-- Accordions Start -->
-            <div class="flex-1">
+            <div class="flex-1 flex flex-col gap-8">
                 <!-- Accordion Item 1 -->
-                <div class="daisy-collapse daisy-collapse-plus bg-base-200">
+                <div 
+                v-for="accordion in accordions"
+                :key="accordion.Q"
+                class="daisy-collapse daisy-collapse-plus bg-base-200 p-6 shadow-sm shadow-black bg-color1/10">
                     <input type="checkbox" class="daisy-collapse-toggle" />
-                    <div class="daisy-collapse-title text-xl font-medium">What is Course Site?</div>
+                    <div class="daisy-collapse-title text-xl font-medium">{{accordion.Q}}</div>
                     <div class="daisy-collapse-content">
                         <p>
-                            CourseSite is an innovative platform designed to empower learners and professionals
-                            with the skills and knowledge they need to excel in today's fast-paced world.
+                            {{accordion.A}}
                         </p>
                     </div>
                 </div>
 
-                <!-- Accordion Item 2 -->
-                <div class="daisy-collapse daisy-collapse-plus bg-base-200 mt-4">
-                    <input type="checkbox" class="daisy-collapse-toggle" />
-                    <div class="daisy-collapse-title text-xl font-medium">Why Choose Course Site?</div>
-                    <div class="daisy-collapse-content">
-                        <p>
-                            We offer cutting-edge content, expert instructors, and a flexible learning
-                            experience tailored to your needs.
-                        </p>
-                    </div>
-                </div>
+         
+              
 
-                <!-- Accordion Item 3 -->
-                <div class="daisy-collapse daisy-collapse-plus bg-base-200 mt-4">
-                    <input type="checkbox" class="daisy-collapse-toggle" />
-                    <div class="daisy-collapse-title text-xl font-medium">How to Get Started?</div>
-                    <div class="daisy-collapse-content">
-                        <p>
-                            Simply sign up, browse our courses, and start your learning journey with ease.
-                        </p>
-                    </div>
-                </div>
+               
             </div>
             <!-- Accordions End -->
         </div>

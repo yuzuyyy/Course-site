@@ -186,3 +186,22 @@ export const certificates = [
 export const socmeds = [linkedin, twitter, github]
 
 export const contacts = [contact1, contact2, contact3]
+
+export const accordions = [
+    {
+        Q : "What is Course Site?",
+        A: "CourseSite is an innovative platform designed to empower learners and professionals with the skills and knowledge they need to excel in today's fast-paced world."
+    },
+    {
+        Q : "Do you have refund policy?",
+        A: "Our Purchases happen through Whop. Whop has its own refund policy, which you can find on their website. We recommend reviewing their policy before making a purchase."
+    },
+    {
+        Q : "Is the community supportive?",
+        A: "Absolutely! We believe in creating a positive and encouraging environment where everyone can learn and grow together."
+    },
+    {
+        Q : "Are there live classes or just recorded content?",
+        A: "We offer a mix of both. You can access a library of recorded content and attend live classes or Q&A sessions hosted by expert instructors."
+    },
+]
