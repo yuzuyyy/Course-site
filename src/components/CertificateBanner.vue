@@ -23,7 +23,7 @@ const props = defineProps({
                 class="size-10"
                 :src="icon" alt="">
             </div>
-            <h3 class="heading3 ">{{ title }}</h3>
+            <h3 class="text-2xl font-bold">{{ title }}</h3>
             <p class="font-inter text-[14px]">{{ desc }}</p>
         </div>
     </div>

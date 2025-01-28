@@ -35,7 +35,7 @@ const props = defineProps({
             </div>
 
             <!-- Benefits Section -->
-            <div class="flex flex-col gap-2">
+            <div class="flex flex-col gap-4">
                 <div v-for="(benefit, index) in plan.benefits" :key="index" :class="{'opacity-50' : !benefit.available}" class="flex items-center gap-2">
                     <img class="w-6 h-6" :src="benefit.available ? checklist : x" alt="icon" />
                     <p 
