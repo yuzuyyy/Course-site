@@ -13,7 +13,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="relative daisy-card p-6 w-[400px] rounded-2xl shadow-md shadow-black border-2"
+    <div class="relative daisy-card p-6 w-[400px] rounded-3xl shadow-md shadow-black border-2"
         :class="plan.isPopular ? 'border-purple-500' : 'border-transparent'">
         <!-- Popular Tag -->
         <div v-if="plan.isPopular"
