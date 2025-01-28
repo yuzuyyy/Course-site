@@ -50,7 +50,7 @@ const props = defineProps({
                 :key="accordion.Q"
                 class="daisy-collapse daisy-collapse-plus bg-base-200 p-6 shadow-sm shadow-black bg-color1/10">
                     <input type="checkbox" class="daisy-collapse-toggle" />
-                    <div class="daisy-collapse-title text-xl font-medium">{{accordion.Q}}</div>
+                    <div class="daisy-collapse-title text-xl font-medium p1 ">{{accordion.Q}}</div>
                     <div class="daisy-collapse-content">
                         <p>
                             {{accordion.A}}
