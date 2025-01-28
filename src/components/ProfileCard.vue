@@ -5,7 +5,7 @@ import { profile } from '../assets';
 </script>
 
 <template>
-    <div class="daisy-btn-card bg-color1/10 w-[350px] rounded-3xl flex flex-col gap-8">
+    <div class="daisy-btn-card bg-color3/10 w-[350px] rounded-3xl flex flex-col gap-8">
         <figure>
             <img class="rounded-t-3xl w-full" :src="profile" alt="">
         </figure>
