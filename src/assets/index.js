@@ -43,6 +43,8 @@ import certificate1 from './certificate1.svg'
 import certificate2 from './certificate2.svg'
 import certificate3 from './certificate3.svg'
 import certificate4 from './certificate4.svg'
+import twitter from './twitter.svg'
+import github from './github.svg'
 
 export {
     hero,
@@ -89,5 +91,7 @@ export {
     certificate1,
     certificate2,
     certificate3,
-    certificate4
+    certificate4,
+    twitter,
+    github
 }
