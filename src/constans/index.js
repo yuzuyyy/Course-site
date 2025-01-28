@@ -1,11 +1,12 @@
-import { 
-    card1,card2, card3, 
-    company1, company2, company3, company4, company5, company6, 
-    feature1, feature2, feature3, 
-    vector1, vector2, vector3, 
-    reviewer1, reviewer2, reviewer3, 
-    benefit1, benefit2,benefit3,benefit4,benefit5,benefit6 
- } from "../assets"
+import {
+    card1, card2, card3,
+    company1, company2, company3, company4, company5, company6,
+    feature1, feature2, feature3,
+    vector1, vector2, vector3,
+    reviewer1, reviewer2, reviewer3,
+    benefit1, benefit2, benefit3, benefit4, benefit5, benefit6,
+    certificate1, certificate2, certificate3, certificate4
+} from "../assets"
 
 
 
@@ -67,7 +68,7 @@ export const reviews = [
         name: "Brendan Wilson",
         role: "Aspiring Web Designer",
         comment: "The courses are top-notch, providing in-depth knowledge that's easy to apply. Each lesson is structured to ensure you fully grasp the material.",
-        rotateRight : true
+        rotateRight: true
     },
     {
         image: reviewer2,
@@ -88,32 +89,32 @@ export const benefits = [
     {
         icon: benefit1,
         title: "Built by Professionals",
-        desc: "Get the best Experience knowing that our Courses are built by Professionals.", 
+        desc: "Get the best Experience knowing that our Courses are built by Professionals.",
     },
     {
         icon: benefit2,
         title: "Completion Certificate",
-        desc: "Receive a Completion Award from our Team to enhance your motivation", 
+        desc: "Receive a Completion Award from our Team to enhance your motivation",
     },
     {
         icon: benefit3,
         title: "Instant Chat Help",
-        desc: "Have questions? Reach out for a quick chat—here for you 24/7.", 
+        desc: "Have questions? Reach out for a quick chat—here for you 24/7.",
     },
     {
         icon: benefit4,
         title: "Lifetime Membership",
-        desc: "With Just One Payment, you'll get Permanent Access to the Course.", 
+        desc: "With Just One Payment, you'll get Permanent Access to the Course.",
     },
     {
         icon: benefit5,
         title: "Access to Community",
-        desc: "Join Our Private Community to Connect with Like-Minded Individuals and Grow Together.", 
+        desc: "Join Our Private Community to Connect with Like-Minded Individuals and Grow Together.",
     },
     {
         icon: benefit6,
         title: "Download for Offline Use",
-        desc: "Our courses can be downloaded, so you can watch them anytime, anywhere.", 
+        desc: "Our courses can be downloaded, so you can watch them anytime, anywhere.",
     },
 
 ]
@@ -121,38 +122,60 @@ export const benefits = [
 
 export const plans = [
     {
-      name: "Starter plan",
-      price: 50.9,
-      benefits: [
-        { text: "Limited Access to the platform", available: true },
-        { text: "10 Free Courses", available: true },
-        { text: "Limited Benefits", available: true },
-        { text: "Agent", available: false },
-        { text: "Live Chat Support", available: false },
-      ],
+        name: "Starter plan",
+        price: 50.9,
+        benefits: [
+            { text: "Limited Access to the platform", available: true },
+            { text: "10 Free Courses", available: true },
+            { text: "Limited Benefits", available: true },
+            { text: "Agent", available: false },
+            { text: "Live Chat Support", available: false },
+        ],
     },
     {
-      name: "Pro plan",
-      price: 70.9,
-      benefits: [
-        { text: "Full Access to the platform", available: true },
-        { text: "20 Free Courses", available: true },
-        { text: "Unlimited Benefits", available: true },
-        { text: "Agent", available: true },
-        { text: "Live Chat Support", available: false },
-      ],
-      isPopular: true,
+        name: "Pro plan",
+        price: 70.9,
+        benefits: [
+            { text: "Full Access to the platform", available: true },
+            { text: "20 Free Courses", available: true },
+            { text: "Unlimited Benefits", available: true },
+            { text: "Agent", available: true },
+            { text: "Live Chat Support", available: false },
+        ],
+        isPopular: true,
     },
     {
-      name: "Business plan",
-      price: 99.9,
-      benefits: [
-        { text: "Full Access to the platform", available: true },
-        { text: "30 Free Courses", available: true },
-        { text: "Unlimited Benefits", available: true },
-        { text: "Agent", available: true },
-        { text: "Live Chat Support", available: true },
-      ],
+        name: "Business plan",
+        price: 99.9,
+        benefits: [
+            { text: "Full Access to the platform", available: true },
+            { text: "30 Free Courses", available: true },
+            { text: "Unlimited Benefits", available: true },
+            { text: "Agent", available: true },
+            { text: "Live Chat Support", available: true },
+        ],
     },
-  ];
-  
+];
+
+export const certificates = [
+    {
+        icon: certificate1,
+        title: "Certificate of Completion",
+        desc: "Receive a recognized credential that significantly boosts your resume."
+    },
+    {
+        icon: certificate2,
+        title: "Networking Opportunities",
+        desc: "Connect with peers and valuable industry professionals for growth."
+    },
+    {
+        icon: certificate3,
+        title: "Comprehensive Curriculum",
+        desc: "Master essential topics and practical skills effectively and thoroughly."
+    },
+    {
+        icon: certificate4,
+        title: "Expert Guidance",
+        desc: "Learn from experienced instructors for personalized and effective support."
+    },
+]  

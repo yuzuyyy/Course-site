@@ -17,7 +17,7 @@ const props = defineProps({
         :class="plan.isPopular ? 'border-purple-500' : 'border-transparent'">
         <!-- Popular Tag -->
         <div v-if="plan.isPopular"
-            class="absolute top-4 right-4 bg-purple-500 text-white px-3 py-1 text-xs rounded-full">
+            class="absolute top-6 -right-6 bg-purple-500 text-white px-6 py-1 text-lg rounded-full rotate-45">
             Popular Plan
         </div>
 
@@ -36,9 +36,11 @@ const props = defineProps({
 
             <!-- Benefits Section -->
             <div class="flex flex-col gap-2">
-                <div v-for="(benefit, index) in plan.benefits" :key="index" class="flex items-center gap-2">
+                <div v-for="(benefit, index) in plan.benefits" :key="index" :class="{'opacity-50' : !benefit.available}" class="flex items-center gap-2">
                     <img class="w-6 h-6" :src="benefit.available ? checklist : x" alt="icon" />
-                    <p class="text-lg font-inter">{{ benefit.text }}</p>
+                    <p 
+                    
+                    class="text-lg font-inter">{{ benefit.text }}</p>
                 </div>
             </div>
 

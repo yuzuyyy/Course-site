@@ -14,6 +14,8 @@ import Benefits from './Benefits.vue';
 import BenefitCard from './BenefitCard.vue';
 import Pricing from './Pricing.vue'
 import PriceCard from './PriceCard.vue'
+import About from './About.vue'
+import CertificateBanner from './CertificateBanner.vue'
 export {
     Navigation,
     Hero,
@@ -30,5 +32,7 @@ export {
     Benefits,
     BenefitCard,
     Pricing,
-    PriceCard
+    PriceCard,
+    About,
+    CertificateBanner
 }

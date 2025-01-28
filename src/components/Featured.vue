@@ -8,7 +8,7 @@ import { features } from '../constans';
 </script>
 
 <template>
-    <section class=" items-center justify-center gap-[88px] pt-[96px] px-[60px] bg-white z-20">
+    <section class="pt-[96px] px-[60px]  z-20">
         <div class="mx-auto max-w-screen-xl flex flex-col items-center justify-center gap-[44px]  ">
             <!-- heading start -->
             <div class="flex  items-center justify-center gap-[30px] ">

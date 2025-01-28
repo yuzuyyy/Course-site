@@ -39,6 +39,11 @@ import benefit5 from './benefit5.svg'
 import benefit6 from './benefit6.svg'
 import checklist from  './checklist.svg'
 import x from './x.svg'
+import certificate1 from './certificate1.svg'
+import certificate2 from './certificate2.svg'
+import certificate3 from './certificate3.svg'
+import certificate4 from './certificate4.svg'
+
 export {
     hero,
     logo,
@@ -80,5 +85,9 @@ export {
     benefit5,
     benefit6,
     checklist,
-    x
+    x,
+    certificate1,
+    certificate2,
+    certificate3,
+    certificate4
 }
