@@ -18,6 +18,7 @@ import About from './About.vue'
 import CertificateBanner from './CertificateBanner.vue'
 import Socmeds from './Socmeds.vue'
 import ProfileCard from './ProfileCard.vue'
+import Faq from './Faq.vue'
 export {
     Navigation,
     Hero,
@@ -38,5 +39,6 @@ export {
     About,
     CertificateBanner,
     Socmeds,
-    ProfileCard
+    ProfileCard,
+    Faq
 }
