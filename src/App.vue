@@ -3,13 +3,13 @@ import { Hero, Navigation, Offer, Featured, Reviews, Benefits, Pricing, About, F
 </script>
 
 <template>
-    <Navigation />
+    <!-- <Navigation />
     <Hero />
     <Offer />
     <Featured />
     <Reviews />
     <Benefits />
     <Pricing />
-    <About />
+    <About /> -->
     <Faq />
 </template>

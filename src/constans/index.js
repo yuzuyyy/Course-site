@@ -7,8 +7,8 @@ import {
     reviewer1, reviewer2, reviewer3,
     benefit1, benefit2, benefit3, benefit4, benefit5, benefit6,
     certificate1, certificate2, certificate3, certificate4,
-    twitter, github,
-    linkedin
+    twitter, github,linkedin,
+    contact1, contact2,contact3
 } from "../assets"
 
 
@@ -184,3 +184,5 @@ export const certificates = [
 ]  
 
 export const socmeds = [linkedin, twitter, github]
+
+export const contacts = [contact1, contact2, contact3]

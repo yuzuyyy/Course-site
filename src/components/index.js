@@ -40,5 +40,6 @@ export {
     CertificateBanner,
     Socmeds,
     ProfileCard,
-    Faq
+    Faq,
+   
 }

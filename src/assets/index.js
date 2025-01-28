@@ -46,6 +46,9 @@ import certificate4 from './certificate4.svg'
 import twitter from './twitter.svg'
 import github from './github.svg'
 import profile from './profile.jpeg'
+import contact1 from './contact1.jpeg'
+import contact2 from './contact2.png'
+import contact3 from './contact3.jpeg'
 
 export {
     hero,
@@ -95,5 +98,8 @@ export {
     certificate4,
     twitter,
     github,
-    profile
+    profile,
+    contact1,
+    contact2,
+    contact3
 }
