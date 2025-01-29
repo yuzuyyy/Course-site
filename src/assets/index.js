@@ -49,7 +49,7 @@ import profile from './profile.jpeg'
 import contact1 from './contact1.jpeg'
 import contact2 from './contact2.png'
 import contact3 from './contact3.jpeg'
-
+import earth from './earth.png'
 export {
     hero,
     logo,
@@ -101,5 +101,6 @@ export {
     profile,
     contact1,
     contact2,
-    contact3
+    contact3,
+    earth
 }

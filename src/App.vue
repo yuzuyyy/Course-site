@@ -1,5 +1,5 @@
 <script setup>
-import { Hero, Navigation, Offer, Featured, Reviews, Benefits, Pricing, About, Faq , Topics} from './components';
+import { Hero, Navigation, Offer, Featured, Reviews, Benefits, Pricing, About, Faq , Topics, Community} from './components';
 </script>
 
 <template>
@@ -13,4 +13,5 @@ import { Hero, Navigation, Offer, Featured, Reviews, Benefits, Pricing, About, F
     <About />
     <Faq /> -->
     <Topics />
+    <Community />
 </template>

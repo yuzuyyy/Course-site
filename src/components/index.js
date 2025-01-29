@@ -21,6 +21,7 @@ import ProfileCard from './ProfileCard.vue'
 import Faq from './Faq.vue'
 import Topics from './Topics.vue'
 import TopicBadge from './TopicBadge.vue'
+import Community from './Community.vue'
 export {
     Navigation,
     Hero,
@@ -44,5 +45,6 @@ export {
     ProfileCard,
     Faq,
    Topics,
-   TopicBadge
+   TopicBadge,
+   Community
 }
