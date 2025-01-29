@@ -10,7 +10,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="daisy-badge p-8 flex gap-2 border-2 border-white outline-1 outline-black rounded-xl bg-color1/10">
+    <div class="daisy-badge p-8 flex gap-2 border-2 shadow-black shadow-sm rounded-2xl">
         <img 
         class="w-5"
         :src="visual" alt="">
