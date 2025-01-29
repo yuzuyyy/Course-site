@@ -8,7 +8,7 @@ import ReviewsCard from './ReviewsCard.vue';
 </script>
 
 <template>
-    <section class="relative py-[96px] px-[60px] overflow-hidden">
+    <section class="relative py-[96px] px-[60px] overflow-hidden z-20 bg-white">
         <!-- vectors -->
         <div class="flex gap-6 mx-auto translate-x-1/2 mb-12">
             <img class="size-8" v-for="vector in vectors " :src="vector" alt="">

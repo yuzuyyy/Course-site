@@ -22,6 +22,7 @@ import Faq from './Faq.vue'
 import Topics from './Topics.vue'
 import TopicBadge from './TopicBadge.vue'
 import Community from './Community.vue'
+import Footer from './Footer.vue'
 export {
     Navigation,
     Hero,
@@ -46,5 +47,6 @@ export {
     Faq,
    Topics,
    TopicBadge,
-   Community
+   Community,
+   Footer
 }
