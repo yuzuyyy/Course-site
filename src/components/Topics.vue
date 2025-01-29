@@ -1,10 +1,7 @@
 <script setup>
-import { visual,badge2 } from '../assets';
-import { Badge, ButtonCta, CourseCard, FeaturedCard } from '../components';
-import { features } from '../constans';
-
-
-
+import { visual, badge7 } from '../assets';
+import {Badge,TopicBadge} from './'
+import { topics } from '../constans';
 </script>
 
 <template>
@@ -16,10 +13,10 @@ import { features } from '../constans';
 
                 <div class="flex flex-col items-center max-w-[620px] gap-[16px] ">
                     <Badge 
-                    :icon="badge2"
+                    :icon="badge7"
                     title="Featured Topics" />
-                    <h2 class="heading2 text-center md:text-[42px] font-medium">Featured Courses</h2>
-                    <p class="p1 text-center">From critical skills to technical topics, we support your professional development with courses that help you grow and succeed.</p>
+                    <h2 class="heading2 text-center md:text-[42px] font-medium">Courses Topics</h2>
+                    <p class="p1 text-center">Explore the key topics covered in our courses, designed to equip you with the skills needed for real-world success.</p>
                 </div>
 
                 <img class="size-[25px]" :src="visual" alt="">
@@ -27,10 +24,12 @@ import { features } from '../constans';
             <!-- heading end -->
 
             <!-- featured card start -->
-            <div class="grid-offer">
-                <FeaturedCard 
-                v-for="feature in features" :key="feature.title"
-                v-bind="feature" />
+            <div class="flex flex-wrap gap-4 max-w-screen-lg items-center justify-center">
+               <TopicBadge 
+               v-for="topic in topics"
+               :key="topic"
+               :label="topic"
+               />
             </div>
             <!-- featured card end -->
 

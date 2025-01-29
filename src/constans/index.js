@@ -205,3 +205,15 @@ export const accordions = [
         A: "We offer a mix of both. You can access a library of recorded content and attend live classes or Q&A sessions hosted by expert instructors."
     },
 ]
+
+export const topics = [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "React",
+    "Vue",
+    "TailwindCSS",
+    "MaterialUi",
+    "Framer",
+    "Webflow"
+]

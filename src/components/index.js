@@ -19,6 +19,8 @@ import CertificateBanner from './CertificateBanner.vue'
 import Socmeds from './Socmeds.vue'
 import ProfileCard from './ProfileCard.vue'
 import Faq from './Faq.vue'
+import Topics from './Topics.vue'
+import TopicBadge from './TopicBadge.vue'
 export {
     Navigation,
     Hero,
@@ -41,5 +43,6 @@ export {
     Socmeds,
     ProfileCard,
     Faq,
-   
+   Topics,
+   TopicBadge
 }
