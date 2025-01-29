@@ -1,5 +1,5 @@
 <script setup>
-import { logo } from '../assets';
+import { logo , vue} from '../assets';
 
 </script>
 
@@ -39,8 +39,17 @@ import { logo } from '../assets';
 
             <div class="daisy-divider"></div>
 
-            <div>
-                <p class="p2 text-center">CourseSite © 2024. Designed by FrameBase</p>
+            <div class="flex flex-col gap-4 items-center">
+                
+                <p class="flex items-center gap-1">Made with VueJs
+                    <img 
+                    class="size-8"
+                    :src="vue" alt="">
+                    by<span class="font-inter text-lg font-semibold">Hendz</span>
+                </p>
+                <p class="p2 text-center">
+      CourseSite © {{ new Date().getFullYear() }}. Designed by FrameBase
+    </p>
             </div>
         </div>
     </section>
