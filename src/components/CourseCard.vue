@@ -26,7 +26,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="w-[400px]  flex flex-col items-center justify-center  gap-4 overflow-visible max-lg:size-[330px]">
+    <div class="w-[400px]  flex flex-col items-center justify-center  gap-4 overflow-visible max-xl:max-w-lg ">
         <!-- content start -->
         <div 
             :class="{ 'xl:rotate-right': rotateRight, 'xl:rotate-left': rotateLeft }"
