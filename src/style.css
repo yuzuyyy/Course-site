@@ -65,6 +65,8 @@
   .grid-offer {
    @apply grid grid-cols-3 md:max-xl:grid-cols-2 max-md:grid-cols-1 gap-[30px]
   }
+  
+ 
 
   .section-padding {
     @apply pt-[96px] px-[60px] md:max-lg:py-[80px] md:max-lg:px-[40px] max-md:py-[60px] max-md:px-[10px]
