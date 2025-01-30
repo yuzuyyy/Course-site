@@ -49,7 +49,7 @@ const props = defineProps({
             <h2 class="card-title heading4 line-clamp-1">
                {{ title }}
             </h2>
-            <p class="p1 font-thin text-lg line-clamp-2">
+            <p class="p1 font-thin text-lg line-clamp-2 max-md:text-start max-md:text-base">
                {{ desc }}
             </p>
             <!-- Bagian fitur dan level -->
