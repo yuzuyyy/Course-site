@@ -1,6 +1,6 @@
 <script setup>
 import { hero } from '../assets';
-
+import { HeroButton } from '.';
 
 </script>
 
@@ -23,15 +23,9 @@ import { hero } from '../assets';
           </p>
         </div>
 
-        <div class="flex gap-8 max-md:flex-col max-md:gap-4 z-20">
-          <button
-            class="daisy-btn daisy-btn-wide text-xl rounded-full bg-color6/40 backdrop-blur-3xl capitalize border-none shadow-sm shadow-white">
-            View all courses
-          </button>
-          <button
-            class="daisy-btn daisy-btn-wide outline outline-8 outline-white/70 bg-white text-xl capitalize rounded-full">
-            Start learning now
-          </button>
+        <div class="flex gap-8  max-md:gap-4 z-20">
+         <HeroButton>View all courses</HeroButton>
+         <HeroButton>Start learning now</HeroButton>
         </div>
       </div>
       <!-- text-content end-->

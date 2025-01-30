@@ -4,13 +4,13 @@ const stars = [1, 2, 3, 4, 5];
 </script>
 
 <template>
-    <div class="flex gap-2">
+    <div class="flex gap-2 max-md:gap1">
                     <img 
                         v-for="(starItem, index) in stars"
                         :key="index"
                         :src="star"
                         alt="Star Icon"
-                        class="h-6 w-6"
+                        class="h-6 w-6 max:md:size-4"
                     />
                 </div>
 </template>

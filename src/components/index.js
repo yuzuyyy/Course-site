@@ -23,6 +23,7 @@ import Topics from './Topics.vue'
 import TopicBadge from './TopicBadge.vue'
 import Community from './Community.vue'
 import Footer from './Footer.vue'
+import HeroButton from './HeroButton.vue'
 export {
     Navigation,
     Hero,
@@ -48,5 +49,6 @@ export {
    Topics,
    TopicBadge,
    Community,
-   Footer
+   Footer,
+   HeroButton
 }
