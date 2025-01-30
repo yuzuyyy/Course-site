@@ -9,12 +9,12 @@ import { cards } from '../constans';
 
 <template>
     <section class=" section-padding bg-white z-20">
-        <div class="mx-auto max-w-screen-xl flex flex-col items-center justify-center gap-[44px]  ">
+        <div class="mx-auto max-w-screen-xl flex flex-col  justify-center gap-[44px]  ">
             <!-- heading start -->
             <div class="flex  items-center justify-center gap-[30px] ">
                 <img class="size-[25px] max-md:hidden" :src="visual" alt="">
 
-                <div class="flex flex-col items-center max-w-[620px] gap-[16px] max-md:w-full">
+                <div class="flex flex-col items-center max-w-[620px] gap-[16px] max-md:max-w-2xl">
                     <Badge title="we offer" />
                     <h2 class="heading2 text-center md:text-[42px] font-medium">Boost Your Skills</h2>
                     <p class="p1 text-center  ">From critical skills to technical topics, we support your professional
