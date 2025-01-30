@@ -63,7 +63,7 @@
   } */
 
   .grid-offer {
-   @apply grid grid-cols-3 md:max-xl:grid-cols-2 max-md:grid-cols-1 gap-[30px] max-md:gap-[10px]
+   @apply grid grid-cols-3 md:max-xl:grid-cols-2 max-md:grid-cols-1 gap-[30px]
   }
   
  
