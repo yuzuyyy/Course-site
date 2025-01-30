@@ -26,7 +26,7 @@ import { cards } from '../constans';
             <!-- heading end -->
 
             <!-- site info start -->
-            <div class="grid-offer">
+            <div class="grid-offer max-md:flex flex-col items-center justify-center">
                 <CourseCard v-for="card in cards" :key="card.text" v-bind="card" />
             </div>
             <!-- site info end -->
