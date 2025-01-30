@@ -5,7 +5,7 @@ import { HeroButton } from '.';
 </script>
 
 <template>
-  <section class="relative bg-white section-padding  overflow-hidden">
+  <section class="relative bg-white section-padding  overflow-hidden radial">
     <div class="absolute inset-0 bg-white/20 backdrop-blur-3xl ">
     </div>
     <div class="w-full flex flex-col items-center gap-[60px] z-20">
