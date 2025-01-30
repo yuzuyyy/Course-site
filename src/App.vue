@@ -6,10 +6,10 @@ import { Hero, Navigation, Offer, Featured, Reviews, Benefits, Pricing, About, F
     <Navigation />
     <Hero />
     <Offer />
-    <!-- <Featured /> -->
-    <!-- <Reviews /> -->
-    <!-- <Benefits /> -->
-    <!-- <Pricing /> -->
+    <Featured />
+    <Reviews />
+    <Benefits />
+    <Pricing />
     <!-- <About /> -->
     <!-- <Faq /> -->
     <!-- <Topics /> -->
