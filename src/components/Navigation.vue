@@ -16,7 +16,9 @@ import {navLinks} from '../constans/'
 
             <div class="flex ">
 
-               <Button buttonClass="bg-slate-900 p1 text-white">Demo template</Button>
+               <Button 
+               :icon="true"
+               buttonClass="bg-slate-900 p1 text-white">Demo template</Button>
             </div>
         </div>
     </nav>

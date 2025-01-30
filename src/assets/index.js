@@ -51,6 +51,7 @@ import contact2 from './contact2.png'
 import contact3 from './contact3.jpeg'
 import earth from './earth.png'
 import vue from './vue.svg'
+import crown from './crown.svg'
 export {
     hero,
     logo,
@@ -104,5 +105,6 @@ export {
     contact2,
     contact3,
     earth,
-    vue
+    vue,
+    crown
 }
