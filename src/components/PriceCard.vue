@@ -13,7 +13,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="relative daisy-card p-6 w-[400px] rounded-3xl shadow-md shadow-black border-2 max-xl:w-[350px]"
+    <div class="relative daisy-card p-6 w-[400px] rounded-3xl shadow-md shadow-black border-2 max-xl:max-w-lg"
         :class="plan.isPopular ? 'border-purple-500' : 'border-transparent'">
         <!-- Popular Tag -->
         <div v-if="plan.isPopular"
@@ -26,7 +26,7 @@ const props = defineProps({
             <p class="text-center text-lg font-bold">{{ plan.name }}</p>
 
             <!-- Price Section -->
-            <div class="flex items-center flex-col gap-2 p-6 shadow-sm shadow-black rounded-2xl bg-color2/10">
+            <div class="flex items-center flex-col gap-2 p-6 shadow-sm shadow-black rounded-2xl bg-color2/10 max-md:p-2">
                 <p>
                     <span class="text-3xl font-semibold">${{ plan.price.toFixed(2) }}</span>
                     /mo
@@ -35,7 +35,7 @@ const props = defineProps({
             </div>
 
             <!-- Benefits Section -->
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-4 max-md:gap-2">
                 <div v-for="(benefit, index) in plan.benefits" :key="index" :class="{'opacity-50' : !benefit.available}" class="flex items-center gap-2">
                     <img class="w-6 h-6" :src="benefit.available ? checklist : x" alt="icon" />
                     <p 
@@ -46,7 +46,7 @@ const props = defineProps({
 
             <!-- Button -->
             <button :class="{ 'bg-slate-900 text-white': plan.isPopular }"
-                class="daisy-btn text-lg daisy-btn-circle w-full daisy-btn-outline">
+                class="daisy-btn text-lg daisy-btn-circle w-full daisy-btn-outline daisy-btn-lg max-md:rounded-xl">
                 Get started
             </button>
 
