@@ -37,7 +37,7 @@ import { cards } from '../constans';
                 <div class="flex items-center justify-center w-full">
                     <div class="h-[0.5px] w-1/4  bg-gray-400">
                     </div>
-                    <p class="p1 text-center w-2/4">Adopted by renowned enterprises such as</p>
+                    <p class="p1 text-center w-2/4 max-md:text-sm">Adopted by renowned enterprises such as</p>
                     <div class="h-[0.5px] flex-1 bg-gray-400"></div>
                 </div>
 
