@@ -4,14 +4,14 @@ import { logo , vue} from '../assets';
 </script>
 
 <template>
-    <section class="pt-[160px] px-[60px] pb-[40px] "> 
+    <section class="section-padding "> 
         <div class="mx-auto max-w-screen-xl flex-col flex items-center  gap-20 py-12">
             <div class="flex flex-col items-center gap-6">
                 <img 
                 class="w-[173px] h-[48px] object-contain"
                 :src="logo" alt="">
 
-                <h2 class="heading2 text-[42px] font-semibold text-center max-w-[840px] ">
+                <h2 class="heading2 text-[42px] font-semibold text-center max-w-[840px] max-md:text-[32px] ">
                     Boost your Learning & Knowledge with CourseSite Now
                 </h2>
 
@@ -20,20 +20,20 @@ import { logo , vue} from '../assets';
                 <p class="p1 text-center">Boost your Learning & Knowledge with CourseSite Now</p>
             </div>
 
-            <div class="flex items-center gap-20">
+            <div class="flex items-center gap-20 max-md:flex-col max-md:gap-6">
 
-                <div class="flex gap-20 items-center">
+                <div class="flex gap-20 items-center max-md:gap-6">
                     <a 
-                    class="p2 hover:text-color1 capitalize font-semibold"
+                    class="p2 hover:text-color1 capitalize font-semibold max-md:font-thin max-md:text-lg"
                     v-for="link in ['benefits', 'courses','contact', 'reviews', ]"
                     href="">
                         {{ link }}
                     </a>
                 </div>
 
-                <div class="flex gap-20">
+                <div class="flex gap-20 max-md:gap-6">
                     <button class="p2">Join us</button>
-                    <button class="p2 border rounded-full py-1 px-4">Notify me</button>
+                    <button class="text-lg font-inter border rounded-full  px-4">Notify me</button>
                 </div>
             </div>
 

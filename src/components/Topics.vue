@@ -5,11 +5,11 @@ import { topics } from '../constans';
 </script>
 
 <template>
-    <section class="pt-[96px] px-[60px]  z-20">
+    <section class="section-padding z-20">
         <div class="mx-auto max-w-screen-xl flex flex-col items-center justify-center gap-[44px]  ">
             <!-- heading start -->
             <div class="flex  items-center justify-center gap-[30px] ">
-                <img class="size-[25px]" :src="visual" alt="">
+                <img class="size-[25px] max-md:hidden" :src="visual" alt="">
 
                 <div class="flex flex-col items-center max-w-[620px] gap-[16px] ">
                     <Badge 
@@ -19,7 +19,7 @@ import { topics } from '../constans';
                     <p class="p1 text-center">Explore the key topics covered in our courses, designed to equip you with the skills needed for real-world success.</p>
                 </div>
 
-                <img class="size-[25px]" :src="visual" alt="">
+                <img class="size-[25px] max-md:hidden" :src="visual" alt="">
             </div>
             <!-- heading end -->
 
