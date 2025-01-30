@@ -10,11 +10,11 @@ const pair2 = computed(() => certificates.slice(-2))
 </script>
 
 <template>
-  <section class="py-[96px] px-[60px]">
+  <section class="section-padding">
     <div class="mx-auto max-w-screen-xl flex flex-col items-center justify-center gap-[44px]">
       <!-- heading start -->
       <div class="flex items-center justify-center gap-[30px]">
-        <img class="size-[25px]" :src="visual" alt="" />
+        <img class="size-[25px] max-md:hidden" :src="visual" alt="" />
         <div class="flex flex-col items-center max-w-[620px] gap-[16px]">
           <Badge :icon="badge5" title="about me" />
           <h2 class="heading2 text-center md:text-[42px] font-medium">
@@ -25,12 +25,12 @@ const pair2 = computed(() => certificates.slice(-2))
             enhancing your skills for the ultimate career success.
           </p>
         </div>
-        <img class="size-[25px]" :src="visual" alt="" />
+        <img class="size-[25px] max-md:hidden" :src="visual" alt="" />
       </div>
       <!-- heading end -->
 
       <div class="grid-offer">
-        <div>
+        <div class="max-xl:hidden">
             <CertificateBanner
               v-for="certificate in pair1"
               :key="certificate.title"
@@ -38,8 +38,15 @@ const pair2 = computed(() => certificates.slice(-2))
             />
         </div>
         <ProfileCard />
+        <div class="xl:hidden">
+          <CertificateBanner
+              v-for="certificate in certificates"
+              :key="certificate.title"
+              v-bind="certificate"
+            />
+        </div>
     
-        <div>
+        <div class="max-xl:hidden">
             <CertificateBanner
               v-for="certificate in pair2"
               :key="certificate.title"

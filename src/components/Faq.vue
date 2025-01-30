@@ -15,16 +15,17 @@ const props = defineProps({
 </script>
 
 <template>
-    <section class="py-[96px] px-[60px]">
-        <div class="mx-auto max-w-screen-xl flex items-start justify-center gap-[60px]">
+    <section class="section-padding">
+        <div class="mx-auto max-w-screen-xl flex items-start justify-center gap-[60px] max-md:flex-col">
             <!-- Heading Start -->
-            <div class="flex flex-col gap-[30px]">
+            
                 <!-- Text Content Start -->
-                <div class="flex flex-col gap-[16px]">
+
+                <div class="flex flex-col gap-[16px] items-start max-md:flex-col max-md:items-center overflow-hidden">
                     <Badge :icon="badge6" title="faq hub" />
-                    <h2 class="heading2 md:text-[42px] font-medium">Frequently Asked Questions!</h2>
-                    <div class="daisy-card p-8 w-[400px] shadow-sm shadow-black rounded-3xl">
-                        <div class="daisy-card-body flex flex-col gap-6">
+                    <h2 class="heading2 md:text-[42px] font-medium text-start max-md:text-center">Frequently Asked Questions!</h2>
+                    <div class="daisy-card p-8 w-[350px] shadow-sm shadow-black rounded-3xl max-md:p-4">
+                        <div class="daisy-card-body flex flex-col items-start gap-6 max-md:p-2">
                             <h3 class="text-2xl font-inter font-semibold">Still Have Questions?</h3>
                             <p class="p2"><span class="underline">Contact Us</span>, We are happy to help you</p>
                             <div class="daisy-avatar-group -space-x-3">
@@ -39,28 +40,24 @@ const props = defineProps({
                     </div>
                 </div>
                 <!-- Text Content End -->
-            </div>
+            
             <!-- Heading End -->
 
             <!-- Accordions Start -->
-            <div class="flex-1 flex flex-col gap-8">
-                <!-- Accordion Item 1 -->
+            <div class="flex-1 flex flex-col gap-8 max-md:flex-none">
+               
                 <div 
                 v-for="accordion in accordions"
                 :key="accordion.Q"
-                class="daisy-collapse daisy-collapse-plus bg-base-200 p-6 shadow-sm shadow-black bg-white">
+                class="daisy-collapse daisy-collapse-plus  p-6 max-md:p-1 shadow-sm shadow-black bg-white">
                     <input type="checkbox" class="daisy-collapse-toggle" />
-                    <div class="daisy-collapse-title text-xl font-medium p1 ">{{accordion.Q}}</div>
-                    <div class="daisy-collapse-content">
-                        <p>
+                    <div class="daisy-collapse-title text-xl font-medium p1 max-md:text-start">{{accordion.Q}}</div>
+                    <div class="daisy-collapse-content ">
+                        <p class="max-md:text-start">
                             {{accordion.A}}
                         </p>
                     </div>
                 </div>
-
-         
-              
-
                
             </div>
             <!-- Accordions End -->

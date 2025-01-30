@@ -16,8 +16,8 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="daisy-card ">
-        <div class="daisy-card-body gap-8">
+    <div class="daisy-card">
+        <div class="daisy-card-body gap-8 max-md:p-0">
             <div class=" grid place-items-center w-fit bg-black/10 p-2 rounded-xl">
                 <img 
                 class="size-10"

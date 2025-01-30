@@ -5,7 +5,7 @@ import { hero } from '../assets';
 </script>
 
 <template>
-  <section class="relative bg-white flex flex-col items-center pt-[140px] px-[60px]   overflow-hidden">
+  <section class="relative bg-white section-padding  overflow-hidden">
     <div class="absolute inset-0 bg-white/20 backdrop-blur-3xl ">
     </div>
     <div class="w-full flex flex-col items-center gap-[60px] z-20">
@@ -16,14 +16,14 @@ import { hero } from '../assets';
           <div class="size-2 bg-black rounded-full"></div> Trusted by 20,000+ Happy Learners
         </div>
 
-        <div class="flex flex-col items-center gap-8">
-          <h1 class="heading1 max-w-6xl"> Web Dev & Design made Simple, Better.</h1>
-          <p class="p2 text-center max-w-3xl">
+        <div class="flex flex-col items-center gap-8 z-20">
+          <h1 class="heading1 max-w-6xl max-md:"> Web Dev & Design made Simple, Better.</h1>
+          <p class="p2 text-center max-w-3xl max-md:max-w-xl max-md:leading-normal">
             Practical project-based courses that are easy to understand, straight to the point, and distractions while ensuring comprehensive learning.
           </p>
         </div>
 
-        <div class="flex gap-8">
+        <div class="flex gap-8 max-md:flex-col max-md:gap-4 z-20">
           <button
             class="daisy-btn daisy-btn-wide text-xl rounded-full bg-color6/40 backdrop-blur-3xl capitalize border-none shadow-sm shadow-white">
             View all courses
@@ -37,8 +37,8 @@ import { hero } from '../assets';
       <!-- text-content end-->
 
       <!-- visual content start -->
-      <div class="relative w-full flex items-center justify-center h-[356px]">
-        <img class="absolute max-w-screen-lg h-[428px] min-hh-[500px]" :src="hero" alt="hero" />
+      <div class="relative w-full flex items-center justify-center h-[356px] max-md:h-[200px]">
+        <img class="absolute max-w-screen-lg max-md:max-w-screen-sm overflow-hidden" :src="hero" alt="hero" />
       </div>
       <!-- visual content end -->
     </div>

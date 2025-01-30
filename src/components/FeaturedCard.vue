@@ -29,7 +29,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="daisy-card bg-base-100 w-[400px] shadow-sm shadow-black tilt-3d rounded-3xl">
+    <div class="daisy-card bg-base-100 w-[400px] shadow-sm shadow-black tilt-3d rounded-3xl max-xl:w-[350px] ">
         <!-- Gambar full width -->
         <figure class="w-full">
             <img 

@@ -31,7 +31,7 @@ const props = defineProps({
 
 <template>
     <div 
-    :class="{'rotate-right' : rotateRight, 'rotate-left' : rotateLeft}"
+    :class="{'xl:rotate-right' :rotateRight, 'xl:rotate-left' : rotateLeft}"
     class="daisy-card max-w-lg shadow-sm shadow-black rounded-3xl">
         <div class="daisy-card-body justify-between gap-6">
             <div class="flex flex-col gap-6">

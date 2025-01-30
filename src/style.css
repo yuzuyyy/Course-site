@@ -16,7 +16,7 @@
   }
 
   .heading2 {
-    @apply text-black text-[50px] md:max-lg:text-[42px] max-md:text-[32px] font-medium leading-[1.2] tracking-tight
+    @apply text-black text-[50px] md:max-lg:text-[42px] max-md:text-[32px] font-medium leading-[1.2] tracking-tight max-md:text-center
   }
 
   .heading3 {
@@ -28,11 +28,11 @@
   }
 
   .p1 {
-    @apply text-black font-inter text-[16px] font-medium leading-[1.2] tracking-[0.01em]
+    @apply text-black font-inter text-[16px] font-medium leading-[1.2] tracking-[0.01em] max-md:text-center
   }
 
   .p2 {
-    @apply text-black font-inter text-[16px] leading-[1.8] tracking-normal
+    @apply text-black font-inter text-[16px] leading-[1.8] tracking-normal max-md:text-center
   }
 
   .radial {
@@ -63,12 +63,11 @@
   } */
 
   .grid-offer {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(50px, 1fr));
-    width: 100%;
-    /* border: 1px solid; */
-    gap: 30px;
-    justify-items: center;
+   @apply grid grid-cols-3 md:max-xl:grid-cols-2 max-md:grid-cols-1 gap-[30px]
+  }
+
+  .section-padding {
+    @apply pt-[96px] px-[60px] md:max-lg:py-[80px] md:max-lg:px-[40px] max-md:py-[60px] max-md:px-[20px]
   }
 
   .tilt-3d {
