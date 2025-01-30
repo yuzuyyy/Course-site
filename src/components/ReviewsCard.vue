@@ -41,7 +41,7 @@ const props = defineProps({
                     class="size-8"
                     :src="linkedin" alt="">
                 </div>
-                <p class="p2 italic ">{{comment}}</p>
+                <p class="p2 italic text-start ">{{comment}}</p>
             </div>
 
             <div class="flex  items-center gap-4">
