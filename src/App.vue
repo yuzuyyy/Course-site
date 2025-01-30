@@ -14,5 +14,5 @@ import { Hero, Navigation, Offer, Featured, Reviews, Benefits, Pricing, About, F
     <!-- <Faq /> -->
     <!-- <Topics /> -->
     <!-- <Community /> -->
-    <!-- <Footer /> -->
+    <Footer />
 </template>

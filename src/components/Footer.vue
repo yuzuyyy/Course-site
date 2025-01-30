@@ -4,8 +4,8 @@ import { logo , vue} from '../assets';
 </script>
 
 <template>
-    <section class="section-padding "> 
-        <div class="mx-auto max-w-screen-xl flex-col flex items-center  gap-20 py-12">
+    <section class="section-padding max-md:pb-[10px]"> 
+        <div class="mx-auto max-w-screen-xl flex-col flex items-center  gap-20 max-md:gap-12 py-12">
             <div class="flex flex-col items-center gap-6">
                 <img 
                 class="w-[173px] h-[48px] object-contain"
@@ -17,12 +17,12 @@ import { logo , vue} from '../assets';
 
                 <button class="daisy-btn daisy-btn-wide bg-slate-900 text-lg font-inter text-white rounded-full daisy-btn-large">Start learning now</button>
 
-                <p class="p1 text-center">Boost your Learning & Knowledge with CourseSite Now</p>
+                <p class="p1 text-center max-md:max-w-md">Boost your Learning & Knowledge with CourseSite Now</p>
             </div>
 
-            <div class="flex items-center gap-20 max-md:flex-col max-md:gap-6">
+            <div class="flex items-center gap-20 max-md:flex-col max-md:gap-6 max-md:hidden">
 
-                <div class="flex gap-20 items-center max-md:gap-6">
+                <div class="flex gap-20 items-center max-md:gap-6 ">
                     <a 
                     class="p2 hover:text-color1 capitalize font-semibold max-md:font-thin max-md:text-lg"
                     v-for="link in ['benefits', 'courses','contact', 'reviews', ]"
