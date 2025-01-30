@@ -9,7 +9,7 @@ import ReviewsCard from './ReviewsCard.vue';
 
 <template>
     <section class="section-padding">
-        <div class="mx-auto max-w-screen-xl flex flex-col items-start justify-center gap-[60px]  ">
+        <div class="mx-auto max-w-screen-xl flex flex-col items-start justify-center gap-[60px] max-md:items-center ">
             <!-- heading start -->
             <div class="w-full flex items-center justify-between ">
                 <!-- text content start -->

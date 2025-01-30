@@ -2,18 +2,17 @@
 import { defineProps } from 'vue';
 import { checklist, x } from '../assets'; // Pastikan asset ini benar
 import { Button } from '../components'; // Pastikan Button sudah terhubung
-// import { tailwindMerge } from "tailwind-merge";
 
 const props = defineProps({
     plan: {
         type: Object,
-        required: true, // Plan wajib diberikan
+        required: true,
     },
 });
 </script>
 
 <template>
-    <div class="relative daisy-card  w-[400px] rounded-3xl shadow-md shadow-black border-2 max-md:p-2 max-xl:max-w-lg"
+    <div class="daisy-card w-full max-w-lg min-w-[400px] rounded-3xl shadow-md shadow-black border-2 max-md:p-2"
         :class="plan.isPopular ? 'border-purple-500' : 'border-transparent'">
         <!-- Popular Tag -->
         <div v-if="plan.isPopular"
@@ -36,11 +35,10 @@ const props = defineProps({
 
             <!-- Benefits Section -->
             <div class="flex flex-col gap-4 max-md:gap-2">
-                <div v-for="(benefit, index) in plan.benefits" :key="index" :class="{'opacity-50' : !benefit.available}" class="flex items-center gap-2">
-                    <img class="w-6 h-6 max-md:w-4 h-4" :src="benefit.available ? checklist : x" alt="icon" />
-                    <p 
-                    
-                    class="text-lg font-inter max-md:text-base">{{ benefit.text }}</p>
+                <div v-for="(benefit, index) in plan.benefits" :key="index" :class="{'opacity-50' : !benefit.available}"
+                    class="flex items-center gap-2">
+                    <img class="w-6 h-6 max-md:w-4 max-md:h-4" :src="benefit.available ? checklist : x" alt="icon" />
+                    <p class="text-lg font-inter max-md:text-base">{{ benefit.text }}</p>
                 </div>
             </div>
 
@@ -49,7 +47,6 @@ const props = defineProps({
                 class="daisy-btn text-lg daisy-btn-circle w-full daisy-btn-outline daisy-btn-lg max-md:rounded-xl">
                 Get started
             </button>
-
         </div>
     </div>
 </template>

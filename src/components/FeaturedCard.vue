@@ -29,7 +29,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="daisy-card bg-base-100 w-[400px] shadow-sm shadow-black xl:tilt-3d rounded-3xl max-xl:max-w-lg  ">
+    <div class="daisy-card bg-base-100 shadow-sm shadow-black xl:tilt-3d rounded-3xl w-full max-w-lg min-w-[400px]">
         <!-- Gambar full width -->
         <figure class="w-full">
             <img 
@@ -40,10 +40,9 @@ const props = defineProps({
         </figure>
         <div class="daisy-card-body daisy-items-start gap-6 p-6">
             <!-- Bagian rating dengan bintang -->
-
             <div class="flex items-center ">
                 <Stars />
-                <p class=" font-bold text-xl font-inter  text-end">{{ price }}<span class="text-lg">$</span></p>
+                <p class="font-bold text-xl font-inter text-end">{{ price }}<span class="text-lg">$</span></p>
             </div>
             <!-- Judul dan deskripsi -->
             <h2 class="card-title heading4 line-clamp-1">

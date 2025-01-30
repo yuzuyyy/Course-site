@@ -26,11 +26,11 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="min-w-[400px] flex flex-col items-center justify-center  gap-4 overflow-visible max-xl:max-w-full ">
+    <div class="relative flex-1 flex flex-col items-center justify-center gap-4 overflow-visible w-full max-w-lg min-w-[400px]">
         <!-- content start -->
         <div 
             :class="{ 'xl:rotate-right': rotateRight, 'xl:rotate-left': rotateLeft }"
-            class="w-full flex flex-col justify-center gap-8 py-16 px-16  rounded-3xl shadow-sm shadow-black"
+            class="w-full flex flex-col justify-center gap-8 py-16 px-16 rounded-3xl shadow-sm shadow-black"
         >
             <!-- wrapper start -->
             <div class="flex flex-col items-center justify-center gap-6">
