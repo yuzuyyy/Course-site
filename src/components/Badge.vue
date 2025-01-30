@@ -14,10 +14,10 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="flex items-center gap-2 border rounded-full pr-2 w-fit">
+    <div class="flex items-center gap-2 border  rounded-full  w-fit">
         <img 
-        class="size-[30px] p-2  bg-color3/20 rounded-full"
+        class="size-12 bg-color3/20 rounded-full"
         :src="icon" alt="rocket">
-        <p class="p-2 capitalize ">{{ title }}</p>
+        <p class="p2 capitalize pr-4">{{ title }}</p>
     </div>
 </template>
