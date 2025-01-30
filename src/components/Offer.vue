@@ -9,7 +9,7 @@ import { cards } from '../constans';
 
 <template>
     <section class=" section-padding bg-white z-20">
-        <div class="mx-auto max-w-screen-xl flex flex-col  justify-center gap-[44px]  ">
+        <div class="mx-auto max-w-screen-xl flex flex-col  justify-center gap-[44px]">
             <!-- heading start -->
             <div class="flex  items-center justify-center gap-[30px] ">
                 <img class="size-[25px] max-md:hidden" :src="visual" alt="">
