@@ -29,7 +29,7 @@ import ReviewsCard from './ReviewsCard.vue';
             </div>
             <!-- heading end -->
 
-            <div class="grid-offer">
+            <div class="grid-offer ">
                 <ReviewsCard v-for="review in reviews" :key="review.name" v-bind="review" />
             </div>
         </div>

@@ -27,7 +27,7 @@ import { plans } from '../constans';
             </div>
             <!-- heaading end -->
 
-            <div class="grid-offer">
+            <div class="grid-offer w-full">
                 <PriceCard 
                 v-for="plan in plans" 
                 :key="plan.name" 
