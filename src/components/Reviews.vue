@@ -1,6 +1,6 @@
 <script setup>
 import { badge3 } from '../assets';
-import { Badge, Button } from '../components';
+import { Badge, Button, HeroButton } from '../components';
 import { vectors, reviews } from '../constans'
 import ReviewsCard from './ReviewsCard.vue';
 
@@ -18,7 +18,7 @@ import ReviewsCard from './ReviewsCard.vue';
                     <h2 class="heading2 md:text-[42px] font-medium ">Our Students feedback</h2>
                     <p class="p2 max-w-lg ">Explore the incredible advantages of enrolling in our courses and enhancing
                         your skills.</p>
-                    <Button buttonClass="bg-slate-900 text-white text-lg font-inter hover:bg-color1">Start learning now</Button>
+                    <HeroButton class="bg-slate-900 text-white">Start learning now</HeroButton>
                 </div>
                 <!-- text-content end -->
 
