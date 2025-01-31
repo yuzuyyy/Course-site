@@ -21,10 +21,10 @@ const props = defineProps({
             
                 <!-- Text Content Start -->
 
-                <div class="flex flex-col gap-[16px] items-start max-md:flex-col max-md:items-center overflow-hidden">
+                <div class="flex flex-col gap-[16px] items-start max-md:flex-col  max-md:items-center">
                     <Badge :icon="badge6" title="faq hub" />
-                    <h2 class="heading2 md:text-[42px] font-medium text-start max-md:text-center">Frequently Asked Questions!</h2>
-                    <div class="daisy-card p-8 w-[350px] shadow-sm shadow-black rounded-3xl max-md:p-4">
+                    <h2 class="heading2 text-[42px] font-medium text-start max-xl:text-center max-xl:text-[32px]">Frequently Asked Questions!</h2>
+                    <div class="daisy-card  min-w-[400px] shadow-md shadow-black rounded-3xl max-md:p-4">
                         <div class="daisy-card-body flex flex-col items-start gap-6 max-md:p-2">
                             <h3 class="text-2xl font-inter font-semibold">Still Have Questions?</h3>
                             <p class="p2"><span class="underline">Contact Us</span>, We are happy to help you</p>

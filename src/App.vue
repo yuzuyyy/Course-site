@@ -10,9 +10,9 @@ import { Hero, Navigation, Offer, Featured, Reviews, Benefits, Pricing, About, F
     <Reviews />
     <Benefits />
     <Pricing />
-    <!-- <About /> -->
-    <!-- <Faq /> -->
-    <!-- <Topics /> -->
-    <!-- <Community /> -->
+    <About />
+    <Faq />
+    <Topics />
+    <Community />
     <Footer />
 </template>

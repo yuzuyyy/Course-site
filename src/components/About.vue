@@ -29,7 +29,7 @@ const pair2 = computed(() => certificates.slice(-2))
       </div>
       <!-- heading end -->
 
-      <div class="grid-offer">
+      <div class="grid-offer w-full">
         <div class="max-xl:hidden">
             <CertificateBanner
               v-for="certificate in pair1"
