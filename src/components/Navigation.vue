@@ -42,10 +42,10 @@ const isOpen = ref(false);
         class="fixed inset-0 top-[60px] md:hidden bg-black/50 z-[100] flex justify-end ease-in-out transition-opacity"
         @click.self="isOpen = false"
     >
-        <div class="bg-white w-full h-screen p-5 shadow-lg">
+        <div class="bg-black  w-full h-screen p-5 shadow-lg">
             <div class="flex flex-col w-full gap-4">
                 <a 
-                    class="capitalize daisy-btn-ghost p-2 daisy-hover:bg-color1 rounded-xl text-lg" 
+                    class="capitalize daisy-btn-ghost text-white p-2 daisy-hover:bg-color1 rounded-xl text-lg" 
                     v-for="(link, index) in navLinks" 
                     :key="index"
                     href="#"
