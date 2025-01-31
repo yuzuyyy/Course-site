@@ -11,7 +11,7 @@ import { logo , vue} from '../assets';
                 class="w-[173px] h-[48px] object-contain"
                 :src="logo" alt="">
 
-                <h2 class="heading2 text-[42px] font-semibold text-center max-w-[840px] max-md:text-[32px] max-md:font-normal">
+                <h2 class="heading2 text-[42px] font-semibold text-center max-w-[840px] max-md:text-[24px] max-md:font-normal">
                     Boost your Learning & Knowledge with CourseSite Now
                 </h2>
 
