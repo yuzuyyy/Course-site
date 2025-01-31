@@ -39,7 +39,7 @@ const isOpen = ref(false);
     <!-- Drawer -->
     <div 
         v-if="isOpen" 
-        class="fixed inset-0 top-20 md:hidden bg-black/50 z-[100] flex justify-end transition-opacity"
+        class="fixed inset-0 top-[60px] md:hidden bg-black/50 z-[100] flex justify-end ease-in-out transition-opacity"
         @click.self="isOpen = false"
     >
         <div class="bg-white w-full h-screen p-5 shadow-lg">
