@@ -11,13 +11,13 @@ import { logo , vue} from '../assets';
                 class="w-[173px] h-[48px] object-contain"
                 :src="logo" alt="">
 
-                <h2 class="heading2 text-[42px] font-semibold text-center max-w-[840px] max-md:text-[32px] ">
+                <h2 class="heading2 text-[42px] font-semibold text-center max-w-[840px] max-md:text-[32px] max-md:font-normal">
                     Boost your Learning & Knowledge with CourseSite Now
                 </h2>
 
                 <button class="daisy-btn daisy-btn-wide bg-slate-900 text-lg font-inter text-white rounded-full daisy-btn-large">Start learning now</button>
 
-                <p class="p1 text-center max-md:max-w-md">Boost your Learning & Knowledge with CourseSite Now</p>
+                <p class="p1 text-center max-md:font-thin max-md:max-w-md">Boost your Learning & Knowledge with CourseSite Now</p>
             </div>
 
             <div class="flex items-center gap-20 max-md:flex-col max-md:gap-6 max-md:hidden">
