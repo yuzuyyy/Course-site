@@ -39,10 +39,10 @@ const isOpen = ref(false);
     <!-- Drawer -->
     <div 
         v-if="isOpen" 
-        class="fixed inset-0 md:hidden bg-black/50 z-[100] flex justify-end transition-opacity"
+        class="fixed inset-0 top-20 md:hidden bg-black/50 z-[100] flex justify-end transition-opacity"
         @click.self="isOpen = false"
     >
-        <div class="bg-white w-64 h-screen p-5 shadow-lg">
+        <div class="bg-white w-full h-screen p-5 shadow-lg">
             <div class="flex flex-col w-full gap-4">
                 <a 
                     class="capitalize daisy-btn-ghost p-2 daisy-hover:bg-color1 rounded-xl text-lg" 
