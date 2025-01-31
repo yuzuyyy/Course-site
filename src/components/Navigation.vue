@@ -8,7 +8,7 @@ const isOpen = ref(false);
 </script>
 
 <template>
-    <nav class="z-40 w-full overflow-hidden fixed top-0 mx-auto bg-white/10 backdrop-blur-3xl">
+    <nav class="z-40 w-full overflow-hidden fixed top-0 mx-auto bg-white/10 backdrop-blur-3xl overflow-hidden">
         <div class="daisy-navbar flex justify-between py-[16px] px-[50px] max-w-screen-xl mx-auto max-md:px-2">
             <img class="h-[34px] w-[150px]" :src="logo" alt="Logo">
             
@@ -38,8 +38,8 @@ const isOpen = ref(false);
 
     <!-- Drawer -->
     <div 
-        v-if="isOpen" 
-        class="fixed inset-0 top-[60px] md:hidden bg-black/50 z-[100] flex justify-end ease-in-out transition-opacity"
+        v-show="isOpen" 
+        class="fixed inset-0 top-[66px] md:hidden bg-black/50 z-[100] flex justify-end ease-in-out transition-opacity"
         @click.self="isOpen = false"
     >
         <div class="bg-black  w-full h-screen p-5 shadow-lg">
