@@ -17,7 +17,7 @@ import { HeroButton } from '.';
         </div>
 
         <div class="flex flex-col items-center gap-8 z-20">
-          <h1 class="heading1 max-w-6xl max-md:"> Web Dev & Design made Simple, Better.</h1>
+          <h1 class="heading1 max-w-[840px] max-md:"> Web Dev & Design made Simple, Better.</h1>
           <p class="p2 text-center max-w-3xl max-md:max-w-xl max-md:leading-normal">
             Practical project-based courses that are easy to understand, straight to the point, and distractions while ensuring comprehensive learning.
           </p>
