@@ -15,7 +15,7 @@ const isOpen = ref(false);
             <!-- Navbar Links -->
             <div class="flex gap-20 max-md:hidden">
                 <a 
-                    class="capitalize daisy-btn-ghost p-2 daisy-hover:bg-color1 rounded-xl text-lg"
+                    class="capitalize daisy-btn-ghost  daisy-hover:bg-color1 rounded-xl"
                     v-for="(link, index) in navLinks" 
                     :key="index"
                     href="#"

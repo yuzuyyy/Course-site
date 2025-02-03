@@ -49,7 +49,7 @@ const props = defineProps({
                 <div 
                 v-for="accordion in accordions"
                 :key="accordion.Q"
-                class="daisy-collapse daisy-collapse-plus  p-6 max-md:p-1 shadow-sm shadow-black bg-white">
+                class="daisy-collapse daisy-collapse-plus  p-2 max-md:p-1 shadow-sm shadow-black bg-white">
                     <input type="checkbox" class="daisy-collapse-toggle" />
                     <div class="daisy-collapse-title text-xl font-medium p1 max-md:text-start">{{accordion.Q}}</div>
                     <div class="daisy-collapse-content ">

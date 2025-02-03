@@ -15,7 +15,7 @@ const props = defineProps({
 <template>
     <button
         :class="buttonClass"
-        class="daisy-btn w-fit  text-lg rounded-full bg-color6/40 backdrop-blur-3xl capitalize border-none shadow-sm shadow-white">
+        class="daisy-btn w-fit rounded-full bg-color6/40 backdrop-blur-3xl capitalize border-none shadow-sm shadow-white">
         <img 
         v-if="icon"
         class="w-4"
