@@ -42,7 +42,7 @@ const isOpen = ref(false);
         class="fixed inset-0  md:hidden bg-black/50 z-[100] flex justify-end ease-in-out transition-opacity"
         @click.self="isOpen = false"
     >
-        <div class="bg-black  w-full h-screen mt-[66px] p-5 shadow-lg">
+        <div class="bg-black  w-full h-screen mt-[66px] p-4 shadow-lg">
             <div class="flex flex-col w-full gap-4">
                 <a 
                     class="capitalize daisy-btn-ghost text-white p-2 daisy-hover:bg-color1 rounded-xl text-lg" 
